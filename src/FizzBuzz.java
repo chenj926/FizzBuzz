@@ -30,10 +30,10 @@ class FizzBuzz {
             }
 
             if (i > 100) {
-                    stop = true;
+                stop = true;
             }
             i++;
-            doFizzBuzz result = new doFizzBuzz(stop, i);
+
         }
 
         /*
@@ -59,14 +59,5 @@ class FizzBuzz {
         }*/
     }
 
-    private static class doFizzBuzz {
-        public final boolean stop;
-        public final int i;
-
-        public doFizzBuzz(boolean stop, int i) {
-            this.stop = stop;
-            this.i = i;
-        }
-    }
 }
 
